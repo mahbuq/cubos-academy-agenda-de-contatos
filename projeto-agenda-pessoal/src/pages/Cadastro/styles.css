@@ -1,0 +1,44 @@
+.cadastro__page {
+   height: 100vh;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.right__cadastro,
+.right__cadastro img {
+   max-height: 100vh;
+   width: 50vw;
+}
+
+.left__cadastro {
+   width: 50%;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.container__cadastro {
+   width: 477px;
+}
+
+.h1__cadastro {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+
+   text-align: center;
+
+   margin-bottom: 40px;
+}
+
+.inputs__cadastro {
+   margin-bottom: 50px;
+}
+
+.btn__cadastro {
+   margin-bottom: 92px;
+}

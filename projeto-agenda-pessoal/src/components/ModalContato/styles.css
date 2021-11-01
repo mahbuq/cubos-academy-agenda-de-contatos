@@ -1,0 +1,55 @@
+.modal {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+
+   background-color: rgba(16, 15, 15, 0.56);
+
+   height: 100vh;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.modal__ctn {
+   background-color: white;
+
+   width: 476px;
+
+   padding: 24px 0 75px;
+
+   border-radius: 8px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.close {
+   width: 16px;
+   height: 16px;
+
+   padding: 24px;
+
+   align-self: flex-end;
+}
+
+.modal__title {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+
+   text-align: center;
+
+   margin-bottom: 40px;
+}
+
+.modal__inputs {
+   width: 364px;
+
+   margin-bottom: 72px;
+}

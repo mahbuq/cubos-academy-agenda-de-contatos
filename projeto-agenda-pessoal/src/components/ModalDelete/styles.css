@@ -1,0 +1,22 @@
+.delete__ctn {
+   background-color: white;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   border-radius: 8px;
+
+   width: 477px;
+
+   padding: 24px 0 56px;
+}
+
+.delete__text {
+   margin-bottom: 32px;
+
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+}
