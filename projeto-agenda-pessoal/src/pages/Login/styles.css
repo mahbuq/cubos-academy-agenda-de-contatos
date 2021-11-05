@@ -11,13 +11,17 @@
 
 .left__login,
 .left__login img {
-   max-height: 100vh;
+   height: 100vh;
    width: 50vw;
+
+   z-index: 2;
 }
 
 .right__login {
    max-height: 100vh;
-   width: 50%;
+   width: 50vw;
+
+   margin-left: 2rem;
 
    display: flex;
    flex-direction: column;
@@ -26,31 +30,31 @@
 }
 
 .container__login {
-   width: 477px;
+   width: 70%;
 }
 
 .h2__login {
    font-style: normal;
    font-weight: normal;
-   font-size: 16px;
+   font-size: 1.6rem;
 
-   margin-bottom: 9px;
+   margin-bottom: 0.9rem;
 }
 
 .h3__login {
    font-style: normal;
    font-weight: bold;
-   font-size: 32px;
+   font-size: 3.2rem;
 
-   margin-bottom: 32px;
+   margin-bottom: 3.2rem;
 }
 
 .inputs_login {
-   margin: 32px 0 72px;
+   margin: 3.2rem 0 7.2rem;
 }
 
 .btn__login {
-   margin-bottom: 96px;
+   margin-bottom: 9.6rem;
 }
 
 p {
@@ -58,10 +62,39 @@ p {
 
    font-style: normal;
    font-weight: normal;
-   font-size: 16px;
+   font-size: 1.6rem;
 }
 
 .link {
    text-decoration: none;
    color: rgba(25, 114, 168, 1);
+}
+
+@media (max-width: 1020px) {
+   .left__login {
+      display: none;
+   }
+   .container__login {
+      width: 400px;
+   }
+
+   .right__login {
+      width: 100%;
+      margin: 10rem;
+   }
+   .h1__login {
+      font-size: 3rem;
+   }
+   .h2__login {
+      font-size: 2rem;
+   }
+   .login__page {
+      justify-content: center;
+   }
+}
+
+@media (max-width: 520px) {
+   .container__login {
+      width: 300px;
+   }
 }

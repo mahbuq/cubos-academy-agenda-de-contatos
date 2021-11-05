@@ -4,9 +4,10 @@ import Button from "@mui/material/Button";
 export default function CustomButton({ children, color, size, action }) {
    const style = {
       backgroundColor: color,
-      width: Number(size) || 475,
+      width: Number(size) || "100%",
       height: 50,
-      marginBottom: 8,
+      marginBottom: "0.8rem",
+      fontSize: "1.2rem",
    };
 
    return (

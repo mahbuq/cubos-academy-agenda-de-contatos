@@ -37,7 +37,7 @@ export default function Home() {
             <img src={exit} alt="Sair" className="exit" onClick={handleSignOut} />
          </header>
          <main>
-            <div>
+            <div className="main-container">
                <CustomButton
                   size="237"
                   color="rgba(4, 196, 92, 1)"
