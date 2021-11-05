@@ -18,5 +18,18 @@
 
    font-style: normal;
    font-weight: normal;
-   font-size: 14px;
+   font-size: 1.4rem;
+}
+
+.delete__btn {
+   width: 364px;
+}
+
+@media (max-width: 520px) {
+   .delete__ctn {
+      width: 80%;
+   }
+   .delete__btn {
+      width: 60%;
+   }
 }

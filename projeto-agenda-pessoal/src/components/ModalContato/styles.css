@@ -53,3 +53,15 @@
 
    margin-bottom: 72px;
 }
+
+.modal__btn {
+   width: 364px;
+}
+
+@media (max-width: 520px) {
+   .modal__ctn,
+   .modal__inputs,
+   .modal__btn {
+      width: 80%;
+   }
+}

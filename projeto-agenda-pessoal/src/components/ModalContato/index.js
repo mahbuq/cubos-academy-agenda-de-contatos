@@ -62,7 +62,7 @@ export default function ModalContato({ create, editContact }) {
             </div>
             <div className="modal__btn">
                <CustomButton
-                  size="364"
+                  size="100%"
                   color="rgba(4, 196, 92, 1)"
                   action={() => (editing ? editContact() : create())}>
                   {`${editing ? "SALVAR" : "ADICIONAR"}`}
